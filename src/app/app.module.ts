@@ -8,6 +8,8 @@ import { ProjectGenesisComponent } from './project-genesis/project-genesis.compo
 import { ProjectItlabComponent } from './project-itlab/project-itlab.component';
 import { ProjectSotfComponent } from './project-sotf/project-sotf.component';
 import { HomeComponent } from './home/home.component';
+import { KompasComponent } from './kompas/kompas.component';
+import { RetrospectiveComponent } from './retrospective/retrospective.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HomeComponent } from './home/home.component';
     ProjectGenesisComponent,
     ProjectItlabComponent,
     ProjectSotfComponent,
-    HomeComponent
+    HomeComponent,
+    KompasComponent,
+    RetrospectiveComponent
   ],
   imports: [
     BrowserModule,
